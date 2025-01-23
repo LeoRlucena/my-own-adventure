@@ -28,9 +28,9 @@ const siteProps = {
   title: "System Development Student",
   email: "leorlucena@gmail.com",
   gitHub: "https://github.com/LeoRlucena",
-  instagram: "https://www.instagram.com/leorlucena/",
-  linkedIn: "https://www.linkedin.com/in/leo-lucena24/",
-  youTube: "https://www.youtube.com/@LeoRlucena",
+  instagram: "leorlucena",
+  linkedIn: "leo-lucena24",
+  youTube: "@LeoRlucena",
 };
 
 const primaryColor = "#4E567E";
