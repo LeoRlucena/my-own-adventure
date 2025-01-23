@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home class="coloe-white" name={siteProps.name} title={siteProps.title} />
+      <Home class="white-text" name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
