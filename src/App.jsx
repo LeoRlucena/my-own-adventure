@@ -27,7 +27,7 @@ const siteProps = {
   name: "Leonardo Lucena",
   title: "System Development Student",
   email: "leorlucena@gmail.com",
-  gitHub: "https://github.com/LeoRlucena",
+  gitHub: "LeoRlucena",
   instagram: "leorlucena",
   linkedIn: "leo-lucena24",
   youTube: "@LeoRlucena",
@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home class="coloe-white" name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
