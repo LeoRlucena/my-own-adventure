@@ -32,26 +32,22 @@ const imageAltText = "a random person playing video games sitting on the floor";
 const projectList = [
   {
     title: "Chess Terminal Game",
-    description:
-      "Chess game created in C# to be played in the terminal.",
+    description: "Chess game created in C# to be played in the terminal.",
     url: "https://github.com/LeoRlucena/xadrez-console",
   },
   {
     title: "Stock control system",
-    description:
-      "Simple stock control system created in C# during my college classes .",
+    description: "Simple stock control system created in C# during my college classes .",
     url: "https://github.com/LeoRlucena/projeto_controle_de_estoque",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Udemy's Github course. Includes my experience and design abilities.",
+    description: "Created from Udemy's Github course. Includes my experience and design abilities.",
     url: "https://leorlucena.github.io/",
   },
   {
     title: "My game channel on youtube, where I also talk about tech",
-    description:
-      "Video about my first experince with the game 'Chrono Trigger'.",
+    description: "Video about my first experince with the game 'Chrono Trigger'.",
     url: "https://www.youtube.com/watch?v=gvLmUzF04yQ&t",
   },
 ];
@@ -64,7 +60,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>

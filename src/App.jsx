@@ -40,7 +40,7 @@ const App = () => {
   const whiteTextStyle = { color: "white" };
   return (
     <div id="main">
-      <Header />
+      <Header class="header" /> 
       <Home style={whiteTextStyle} name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
