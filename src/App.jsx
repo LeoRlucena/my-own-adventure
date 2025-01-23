@@ -37,10 +37,12 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+  const whiteTextStyle = { color: "white" };
+
   return (
     <div id="main">
       <Header />
-      <Home className="white-text" name={siteProps.name} title={siteProps.title} />
+      <Home style={whiteTextStyle} name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
