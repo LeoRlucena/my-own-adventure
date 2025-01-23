@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/videogame-background.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "a random person playing video games sitting on the floor";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Chess Terminal Game",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Chess game created in C# to be played in the terminal.",
+    url: "https://github.com/LeoRlucena/xadrez-console",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Stock control system",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Simple stock control system created in C# during my college classes .",
+    url: "https://github.com/LeoRlucena/projeto_controle_de_estoque",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Udemy's Github course. Includes my experience and design abilities.",
+    url: "https://leorlucena.github.io/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My game channel on youtube, where I also talk about tech",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Video about my first experince with the game 'Chrono Trigger'.",
+    url: "https://www.youtube.com/watch?v=gvLmUzF04yQ&t",
   },
 ];
 
