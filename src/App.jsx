@@ -38,7 +38,6 @@ const secondaryColor = "#D2F1E4";
 
 const App = () => {
   const whiteTextStyle = { color: "white" };
-
   return (
     <div id="main">
       <Header />
