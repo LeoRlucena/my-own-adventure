@@ -34,11 +34,13 @@ const Home = ({ name, title }) => {
         <h2 className="white-text">{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img
+        <button
           className="arrow"
-          src={arrowSvg}
-          style={{ height: "3rem", width: "3rem" }}
-          alt={imageAltText}
+          style={{ background: `url(${arrowSvg}) no-repeat center/contain`, height: "3rem", width: "3rem", border: "none" }}
+          aria-label={imageAltText}
+          onClick={() => {
+            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+          }}
         />
       </div>
     </section>
